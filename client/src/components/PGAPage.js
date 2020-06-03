@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Row, Col, Button, Container } from "reactstrap";
-import PropTypes from "prop-types";
 import GolferDataPage from "./GolferDataPage"
 import MatchupDisplay from "./MatchupDisplay";
 import CourseStatsDisplay from "./CourseStatsDisplay";

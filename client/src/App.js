@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
 
 import styled from "styled-components";
@@ -10,11 +10,6 @@ const Title = styled.h1`
   padding: 1rem;
   background-color: #a0000f;
   color: white;
-`;
-
-const ButtonBar = styled.div`
-  padding: 3rem 1;
-  margin-bottom: 0.5rem;
 `;
 
 const Message = styled.div`

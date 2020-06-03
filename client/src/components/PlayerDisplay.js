@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
-import { Row, Col, Button, Container } from "reactstrap";
-import PropTypes from "prop-types";
-const ExcelJS = require('exceljs');
+import { Container } from "reactstrap";
 
 const PlayerName = styled.h3`
   text-align: center;

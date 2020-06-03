@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styled from "styled-components";
-import { Row, Col, Button, Container } from "reactstrap";
-import PropTypes from "prop-types";
+import React, { useEffect } from "react";
+import { Row, Col, Container } from "reactstrap";
 import PlayerDisplay from "./PlayerDisplay";
 
 const GolferDataPage = () => {

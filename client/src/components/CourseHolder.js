@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styled from "styled-components";
-import { Row, Col, Button, Container } from "reactstrap";
-import PropTypes from "prop-types";
+import React from "react";
+import { Row, Col } from "reactstrap";
 
 function Insert(arraySort, addition) {
   console.log("In: " + addition.name);
@@ -271,11 +269,11 @@ function Average(course, results, stat) {
     }
     else if (stat === "Sand Attempts per Round") {
       let totsandAtt = 0.0;
-      let totsandSave = 0.0;
+      //let totsandSave = 0.0;
       arrayResults.forEach((object) => {
         if (object.sandAtt <= 25) {
           totsandAtt += object.sandAtt;
-          totsandSave += object.sandSave;
+          //totsandSave += object.sandSave;
         }
       });
       if (totsandAtt > 0) {
